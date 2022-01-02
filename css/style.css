@@ -1,0 +1,183 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Luminari", serif;
+  font-size: 18px;
+  background-image: url("../img/ava7patterns_pattern_1715.png");
+  color: #905744;
+}
+
+h2 {
+  font-family: "Bradley Hand", cursive;
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #c3785fde;
+}
+h1 {
+  margin-top: 30px;
+  font-family: "Bradley Hand", cursive;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 8px -5px rgba(0, 0, 0, 0.438);
+  color: #b99488;
+}
+.logo {
+  background-color: blueviolet;
+  height: 110px;
+  display: inline-block;
+  padding: 7px;
+  vertical-align: middle;
+  background-image: url("../img/ava7patterns_pattern_1715.png");
+}
+
+.logo img {
+  width: 110px;
+  background-image: url("../img/ava7patterns_pattern_1715.png");
+}
+
+.meny {
+  background-color: coral;
+  border-style: solid;
+  border-color: aqua;
+  display: inline-block;
+  margin-left: 52px;
+  background-image: url("../img/ava7patterns_pattern_1715.png");
+}
+
+ul li {
+  display: inline-block;
+  width: 200px;
+  transition: all 0.5s;
+  color: #905744;
+  text-align: center;
+}
+ul li:hover {
+  background-color: #f3c1b0;
+  border-top: 2px solid rgba(253, 253, 253, 0.753);
+  border-radius: 10px 10px 10px 10px;
+}
+.meny ul li a {
+  text-decoration: none;
+  color: #c3785fde;
+}
+header {
+  background-color: rgb(179, 122, 57);
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/ava7patterns_pattern_1715.png");
+}
+
+.bigfoto img {
+  width: -webkit-fill-available;
+}
+section {
+  text-align: justify;
+  text-indent: 30px;
+  margin-top: 20px;
+}
+mark {
+  background-color: #f3c1b01a;
+  color: #b99488;
+}
+
+article {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-indent: 30px;
+}
+article img {
+  width: 500px;
+  height: 280px;
+}
+main article:nth-child(even) img {
+  width: 40%;
+  float: right;
+  margin: 20px 0 0 25px;
+}
+main article:nth-child(odd) img {
+  width: 40%;
+  float: left;
+  margin: 20px 25px 0 0;
+}
+.hr-washed {
+  margin: 30px 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  box-shadow: 0 0 10px 1px rgb(170, 104, 77);
+}
+.nav {
+  margin-left: 15px;
+}
+.nav ol li a {
+  color: #905744;
+  font-size: 15px;
+  text-decoration: none;
+}
+.nav a {
+  color: #905744;
+  font-size: 15px;
+  text-decoration: none;
+}
+.nav a:hover {
+  border-bottom: 2px solid #b99488;
+}
+.colorText {
+  color: #b99488;
+  font-style: italic;
+}
+button a {
+  color: #905744;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0 15px;
+}
+button {
+  float: right;
+  margin-right: 5px;
+  background-color: #b99488;
+  border-radius: 8px 8px 8px 8px;
+}
+button:hover {
+  border: 2px solid rgba(255, 0, 0, 0.445);
+}
+.letter:first-letter {
+  font-size: 30px;
+  font-family: "Arial";
+  text-shadow: 5px -3px rgba(0, 0, 0, 0.438);
+  color: #b99488;
+}
+
+.VK {
+  height: 55px;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("../img/ava7patterns_pattern_1715.png");
+  float: right;
+  margin-right: 15px;
+  
+}
+.VK a img {
+  width: 55px;
+  background-image: url("../img/ava7patterns_pattern_1715.png");
+  box-shadow: inset 0 0 6px 4px #905744;(0, 0, 0, 0.7);
+  width: 55px;
+  height: 55px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+footer {
+  margin-bottom: 15px;
+}
