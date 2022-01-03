@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cormorant+Infant:ital,wght@1,300&display=swap');
 *,
 *::after,
 *::before {
@@ -6,19 +7,19 @@
   border: 0;
   box-sizing: border-box;
 }
-@import url(//db.onlinewebfonts.com/c/faeedc1fd74dce8e508221970594cb53?family=Bradley+Hand+ITC);
+
 
 body {
   margin-left: 100px;
   margin-right: 100px;
-  font-family: "Luminari", fantasy;
-  font-size: 18px;
+  font-family: "Cormorant Infant", serif;
+  font-size: 25px;
   background-image: url("../img/ava7patterns_pattern_1715.png");
   color: #905744;
 }
 
 h2 {
-  font-family: "Bradley Hand", cursive;
+  font-family: "Balsamiq Sans", cursive;
   font-size: 27px;
   text-align: center;
   margin-bottom: 15px;
@@ -26,14 +27,13 @@ h2 {
 }
 h1 {
   margin-top: 30px;
-  font-family: "Bradley Hand", cursive;
+  font-family: "Balsamiq Sans", cursive;
   font-size: 40px;
   text-align: center;
   text-shadow: 8px -5px rgba(0, 0, 0, 0.438);
   color: #b99488;
 }
 .logo {
-  background-color: blueviolet;
   height: 110px;
   display: inline-block;
   padding: 7px;
@@ -124,14 +124,10 @@ main article:nth-child(odd) img {
 }
 .nav ol li a {
   color: #905744;
-  font-size: 15px;
+  font-size: 20px;
   text-decoration: none;
 }
-.nav a {
-  color: #905744;
-  font-size: 15px;
-  text-decoration: none;
-}
+
 .nav a:hover {
   border-bottom: 2px solid #b99488;
 }
