@@ -6,11 +6,12 @@
   border: 0;
   box-sizing: border-box;
 }
+@import url(//db.onlinewebfonts.com/c/faeedc1fd74dce8e508221970594cb53?family=Bradley+Hand+ITC);
 
 body {
   margin-left: 100px;
   margin-right: 100px;
-  font-family: "Luminari", serif;
+  font-family: "Luminari", fantasy;
   font-size: 18px;
   background-image: url("../img/ava7patterns_pattern_1715.png");
   color: #905744;
