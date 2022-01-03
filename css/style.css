@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cormorant+Infant:ital,wght@1,300&display=swap');
+
 *,
 *::after,
 *::before {
@@ -12,8 +12,8 @@
 body {
   margin-left: 100px;
   margin-right: 100px;
-  font-family: "Cormorant Infant", serif;
-  font-size: 25px;
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
   background-image: url("../img/ava7patterns_pattern_1715.png");
   color: #905744;
 }
@@ -124,7 +124,7 @@ main article:nth-child(odd) img {
 }
 .nav ol li a {
   color: #905744;
-  font-size: 20px;
+  font-size: 17px;
   text-decoration: none;
 }
 
